@@ -1,0 +1,10 @@
+n=int(input())
+a=[int(x) for x in input().split()]
+x=int(input())
+m=10**9
+res=0
+for i in a:
+    if abs(i-x)<m:
+        res=i
+        m=abs(i-x)
+print(res)
