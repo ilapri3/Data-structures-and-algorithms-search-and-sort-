@@ -1,0 +1,7 @@
+n=int(input())
+a=[int(x) for x in input().split()]
+x=int(input())
+if x in a:
+    print('YES')
+else:
+    print('NO')
